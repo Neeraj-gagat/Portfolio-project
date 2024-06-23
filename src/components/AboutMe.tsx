@@ -9,7 +9,7 @@ export const AboutMe = () => {
             transition={{ delay: 0.175 }}
             id="about"
         >
-            <div className="pb-10 font-bold">About Me</div>
+            <div className="pb-10 font-serif text-4xl">About Me</div>
             <p className="mb-3">
             Completed My Bachelor of Technology degree in{" "}
             <span className="font-medium">Computer Science and Computer Applications</span> at

@@ -2,7 +2,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 export const AppBar = () =>{
-    return <div className="border-b flex justify-center mx-auto px-0 w-3/6 py-4 bg-white rounded-full mt-4 space-x-4 ">
+    return <div className="border-b flex justify-center fixed top-0 left-0 right-0 mx-auto px-0 w-3/6 py-4 bg-white rounded-full mt-4 space-x-4 ">
     <nav className="flex justify-center space-x-4">
       <AnchorLink href="#home" className="text-gray-500 hover:text-black px-3 py-2 rounded-md text-sm font-medium">
         Home
