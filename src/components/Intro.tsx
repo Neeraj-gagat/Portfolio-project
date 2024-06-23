@@ -16,7 +16,7 @@ export const Intro = () => {
             </div>
         <div className="flex items-center justify-center pt-10 mx-auto">
             <div>
-            <span className="font-bold">Hello, I&apos;m Neeraj.</span> I&apos;m a
+            <span className="font-bold font-serif">Hello, I&apos;m Neeraj.</span> I&apos;m a
             <span className="font-bold"><WordsFlip className="!text-black" duration={2000} words={words} /></span>
             <br />
             with
@@ -27,7 +27,7 @@ export const Intro = () => {
             <span className="underline">React (Next.js)</span>.
             </div>
         </div>
-        <div className="flex justify-center space-x-8 mt-16">
+        <div className="flex justify-center space-x-8 mt-10">
             <button className="bg-black text-white px-7 py-3 text-xl rounded-3xl">Contact Me Here</button>
             <button className=" text-black bg-slate-100 px-7 py-3 text-xl rounded-3xl">Downlod cv</button>
             <div><GrGithub /> </div>
