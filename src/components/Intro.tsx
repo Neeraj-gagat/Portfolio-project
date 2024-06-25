@@ -10,7 +10,7 @@ import { HiDownload } from "react-icons/hi";
 export const Intro = () => {
     const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "NextJS Developer"];
 
-    return <div className="content-center  text-neutral-950 text-4xl text-center">
+    return <div className="content-center  text-neutral-950 text-4xl text-center" id="home">
         <div className="flex justify-center pt-32">
             <CgProfile className="size-24"/>
             </div>
