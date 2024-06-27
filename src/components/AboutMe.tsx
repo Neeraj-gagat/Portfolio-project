@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 
 export const AboutMe = () => {
-    return <div className="flex justify-center">
+    return <div id="about" className="flex justify-center">
             <motion.section
             className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 text-lg scroll-mt-28 justify-center"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
-            id="about"
         >
             <div className="pb-10 font-serif text-4xl">About Me</div>
             <p className="mb-3">

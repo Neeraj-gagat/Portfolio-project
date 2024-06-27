@@ -51,7 +51,7 @@ export const Skills = () => {
     }),
   };
     
-    return <div className="flex justify-center">
+    return <div id="skills" className="flex justify-center">
                 <div className="mb-28 justify-center max-w-[53rem] scroll-mt-28 text-center sm:mb:40">
                     <div className="text-4xl font-serif"> My Skills</div>
                         <div className=" mt-12">
