@@ -1,5 +1,5 @@
 import { cn } from "../../utils/cn";
-// import Image from "public/image";
+// import Image from "next/image";
 import React, {
   createContext,
   useState,
