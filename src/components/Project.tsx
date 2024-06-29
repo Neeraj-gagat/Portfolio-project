@@ -1,21 +1,21 @@
 import { projectsdata } from "../data/data";
 import { useScroll, useTransform } from "framer-motion";
 import  { useRef } from "react";
-import Image from '../..public/image1.jpg'
+// import Image from '../..public/image1.jpg'
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { motion } from "framer-motion";
 
 
-type ProjectProps = (typeof projectsdata)[number];
+type ProjectProps = (typeof projectsdata)[number]; 
 
 
-export default function Project({
+export const Project = ({
     title,
     description,
     tags,
     imageUrl,
     linkToProject,
-}:ProjectProps) {
+}:ProjectProps) => {
     const sectionRef = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
       target: sectionRef,
@@ -33,7 +33,7 @@ export default function Project({
     opacity: opacityProgress,
     }}
     >      
-    <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border overflow-hidden sm:pr-8 relative sm:h-[24rem]  hover:bg-gray-200 transition group-even:pl-8">
+    <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border overflow-hidden sm:pr-8 relative sm:h-[24rem]  hover:bg-gray-300 transition group-even:pl-8">
         <CardBody className="relative group/card w-auto h-auto rounded-xl mt-4 p-6">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
@@ -42,8 +42,7 @@ export default function Project({
               {tags.map((tag, index) => (
                 <CardItem key={index}>
                   <li
-                  className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
-                >
+                  className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full">
                   {tag}
                 </li>
                 </CardItem>
@@ -55,7 +54,7 @@ export default function Project({
               src={imageUrl}
               alt="Project I worked on :-)"
               // quality={95}
-              className="absolute top-14 -right-40 w-[28.25rem] h-[18rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04]  group-even:right-[initial] group-even:-left-40"
+              className="shadow-2xl absolute top-14 -right-40 w-[28.25rem] h-[18rem] rounded-t-lg transition group-hover:scale-[1.04]  group-even:right-[initial] group-even:-left-40"
             />
           </a>
         </CardBody>

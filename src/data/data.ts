@@ -9,7 +9,7 @@ export const projectsdata = [
         description:
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:image1,
+        imageUrl:`${image1}?q=95`,
         linkToProject:"www.google.com",
 
     },
@@ -18,14 +18,14 @@ export const projectsdata = [
         description:
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:image2,
+        imageUrl:`${image2}?q=95`,
         linkToProject:"www.google.com",
     },
     {title: "Blogging Web App",
         description:
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:image3,
+        imageUrl:`${image3}?q=95`,
         linkToProject:"www.google.com",
     },
 ]
