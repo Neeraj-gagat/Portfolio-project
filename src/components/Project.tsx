@@ -27,11 +27,12 @@ export const Project = ({
 
   return (
     <motion.div
-    className="group mb-3 sm:mb-8 last:mb-0"
+    ref={sectionRef}
     style={{
     scale: scaleProgress,
     opacity: opacityProgress,
     }}
+    className="group mb-3 sm:mb-8 last:mb-0"
     >      
     <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border overflow-hidden sm:pr-8 relative sm:h-[24rem]  hover:bg-gray-300 transition group-even:pl-8">
         <CardBody className="relative group/card w-auto h-auto rounded-xl mt-4 p-6">
