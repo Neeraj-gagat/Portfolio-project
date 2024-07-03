@@ -1,5 +1,6 @@
 import { AboutMe } from "../components/AboutMe"
 import { AppBar } from "../components/AppBar"
+import { Experience } from "../components/Experience"
 import { Intro } from "../components/Intro"
 import { Projects } from "../components/Projects"
 import SectionDivider from "../components/SectionDevider"
@@ -13,6 +14,7 @@ export const LandingPage = () => {
         <AboutMe/>
         <Projects/>
         <Skills/>
+        <Experience/>
 
     </div>
 }
