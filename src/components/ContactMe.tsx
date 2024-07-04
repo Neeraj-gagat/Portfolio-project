@@ -16,11 +16,11 @@ export const ContactMe = () => {
     }}
     viewport={{ once: true }}
     >
-        <div className="flex justify-center text-4xl font-serif" >Contact Me</div>
+        <div className="flex justify-center text-4xl font-serif mb-14" >Contact Me</div>
         <p className="text-gray-700 -mt-4">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:jainsparsh17@gmail.com">
-          jainsparsh17@gmail.com
+        <a className="underline" href="mailto:Neerajgagat9999@gmail.com">
+          Neerajgagat9999@gmail.com
         </a>{" "}
         or through this form.
       </p>
