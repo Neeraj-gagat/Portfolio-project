@@ -1,8 +1,30 @@
 import { motion } from "framer-motion";
 import { FaPaperPlane } from "react-icons/fa";
+import { useState } from "react";
 
 
 export const ContactMe = () => {
+  const [formData, setFormData] = useState({});
+
+  const changeHandler = (event:any) => {
+    setFormData({...formData,[event.target.name]: event.target.value});
+  }
+
+  const submitHandler = (event:string) => {
+    const config = {
+      Host : "smtp.elasticemail.com",
+      Username : "username",
+      Password : "password",
+      To : 'neerajgagat9999@gmail.com',
+      From : formData.email,
+      Subject : "This is the subject",
+      Body : "And this is the body"
+    };
+    if(window.Email) {
+
+    }
+  }
+
     return <div className="flex justify-center">
     <motion.section
     id="contact"
@@ -26,13 +48,6 @@ export const ContactMe = () => {
       </p>
       <form
         className="mt-10 flex flex-col items-center"
-        action={async (formData:Promise<void>) => {
-            function sendEmail(formData: any) {
-                throw new Error("Function not implemented.");
-            }
-
-          return await sendEmail(formData);
-        }}
       >
         <input
           className="h-14 w-full rounded-lg border border-black/10 px-4"
