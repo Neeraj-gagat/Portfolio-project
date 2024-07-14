@@ -13,7 +13,7 @@ export const ContactMe = () => {
     setFormData({...formData,[event.target.name]: event.target.value});
   }
   
-  const submitHandler = (event:string) => {
+  const submitHandler = (event:React.FormEvent<any>) => {
     const config = {
       Host : "smtp.elasticemail.com",
       Username : "username",
@@ -59,6 +59,7 @@ export const ContactMe = () => {
           type="email"
           required
           maxLength={500}
+          onChange={changeHandler}
         />
         <textarea
           className="h-52 w-full my-3 rounded-lg border border-black/10 p-4"
@@ -66,9 +67,11 @@ export const ContactMe = () => {
           name="message"
           required
           maxLength={1000}
+          onChange={changeHandler}
         />
         <button
           type="submit"
+          value="Send Email"
           className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
         >
           Submit{" "}

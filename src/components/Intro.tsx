@@ -1,9 +1,10 @@
 import  { WordsFlip }  from "./ui/WordsFlip";
 import { GrGithub } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
-import { CgProfile } from "react-icons/cg";
+// import { CgProfile } from "react-icons/cg";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import profile from "../../public/profilepic.jpg"
 
 
 
@@ -12,7 +13,7 @@ export const Intro = () => {
 
     return <div className="content-center  text-neutral-950 text-4xl text-center" id="home">
         <div className="flex justify-center pt-32">
-            <CgProfile className="size-24"/>
+                <img src={profile} className="size-24 rounded-full border-4 border-black" alt="image is not available" />
             </div>
         <div className="flex items-center justify-center pt-10 mx-auto">
             <div className="my-2 space-y-4">
