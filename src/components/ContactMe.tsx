@@ -14,17 +14,22 @@ export const ContactMe = () => {
   }
   
   const submitHandler = (event:React.FormEvent<any>) => {
+    event.preventDefault();
     const config = {
       Host : "smtp.elasticemail.com",
       Username : "username",
       Password : "password",
       To : 'neerajgagat9999@gmail.com',
+      // @ts-ignore
       From : formData.email,
-      Subject : "This is the subject",
-      Body : "And this is the body"
+      Subject : "This is from my contact form",
+      // @ts-ignore
+      Body : `${formData.name} connected to you over email`,
     };
+    // @ts-ignore
     if(window.Email) {
-
+      // @ts-ignore
+      window.Email.send(config);
     }
   }
 
@@ -51,6 +56,7 @@ export const ContactMe = () => {
       </p>
       <form
         className="mt-10 flex flex-col items-center"
+        onSubmit={submitHandler}
       >
         <input
           className="h-14 w-full rounded-lg border border-black/10 px-4"
