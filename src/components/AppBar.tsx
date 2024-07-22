@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 export const AppBar = () =>{
 
     return <motion.div 
-    className="shadow-xl left-1/2 border-b flex backdrop-blur-[0.5rem] border-opacity-40 bg-opacity-80 justify-center fixed z-[999] top-0 mx-auto px-0 w-2/5 h-14 py-4 bg-white rounded-full mt-5 space-x-4 "
+    className="shadow-xl left-1/2 h-[4.5rem] top-0 sm:top-2 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full border-b flex pt-4 backdrop-blur-[0.5rem] border-opacity-40 bg-opacity-80 justify-center fixed z-[999] mx-auto px-0 w-full py-4 bg-white rounded-full mt-5 space-x-4 "
     initial={{ y: -100, x: "-50%", opacity: 0 }}
     animate={{ y: 0, x: "-50%", opacity: 1 }}
     >
