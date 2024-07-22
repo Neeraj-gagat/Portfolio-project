@@ -47,7 +47,7 @@ export const experiencesData = [
       title: "Bachelor of Computer Application,Punjabi University, Patiala",
       location: "Pataila, Punjab, India",
       description:
-        "Currently in my final year pursuing B.Tech in Computer Science and Engineering from IIIT Dharwad. I learned C, C++, Java, Data Structures, Algorithms, DBMS, SQL, OS, Computer Networks, Web Development, Software Engineering, etc.",
+        "Completed my Graduation in Computer Science from Punjabi University Pataila. I learned C, C++, Java, Data Structures, Algorithms, DBMS, SQL, OS, Computer Networks, Web Development, Software Engineering, etc.",
       icon: React.createElement(LuGraduationCap),
       date: "2020-2023",
     },
