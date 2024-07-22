@@ -35,28 +35,21 @@ export const projectsdata = [
 
 export const experiencesData = [
     {
-      title: "Associate Software Engineer, Urbint",
-      location: "Bengaluru, Karnataka, India",
+      title: "100xDevs",
+      location:"Remote",
       description:
-        "Working as an Full Stack Engineer at Urbint, in the worker safety team to build a platform that helps in reducing the risk of accidents for field workers. I work on the backend using FastAPI, GraphQL with Python and Strawberry, PostgreSQL, and the frontend using Next.js, React.js, and Tailwind CSS.",
-      icon: React.createElement(CgWorkAlt),
-      date: "June 2024 - Present",
+        "Enrolled as a Student to learn Full Stack development at 100xDevs,Learning Full Stack development in MERN Stack, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
+      icon: React.createElement(LuGraduationCap),
+      date: "2023 - 2024 - Present",
     },
-    {
-      title: "Intern, Caterpillar Inc.",
-      location: "Bengaluru, Karnataka, India",
-      description:
-        "Worked as an Automation Testing Intern at Caterpillar Inc. for 3 months. I automated the testing of a web application using Selenium WebDriver and Java. I also worked on a project to automate the testing of a REST API using Postman.",
-      icon: React.createElement(CgWorkAlt),
-      date: "June 2023 - Aug 2023",
-    },
+  
     {
       title: "Bachelor of Computer Application,Punjabi University, Patiala",
-      location: "Dharwad, Karnataka, India",
+      location: "Pataila, Punjab, India",
       description:
         "Currently in my final year pursuing B.Tech in Computer Science and Engineering from IIIT Dharwad. I learned C, C++, Java, Data Structures, Algorithms, DBMS, SQL, OS, Computer Networks, Web Development, Software Engineering, etc.",
       icon: React.createElement(LuGraduationCap),
-      date: "2020-2024",
+      date: "2020-2023",
     },
   
     {
