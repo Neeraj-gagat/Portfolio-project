@@ -2,28 +2,29 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import {motion} from "framer-motion"
 
 export const AppBar = () =>{
+
     return <motion.div 
-    className="shadow-xl left-1/2 border-b flex justify-center fixed z-[999] top-0 mx-auto px-0 w-2/5 h-14 py-4 bg-white rounded-full mt-5 space-x-4 "
+    className="shadow-xl left-1/2 border-b flex backdrop-blur-[0.5rem] border-opacity-40 bg-opacity-80 justify-center fixed z-[999] top-0 mx-auto px-0 w-2/5 h-14 py-4 bg-white rounded-full mt-5 space-x-4 "
     initial={{ y: -100, x: "-50%", opacity: 0 }}
     animate={{ y: 0, x: "-50%", opacity: 1 }}
     >
     <nav className="flex space-x-10">
-      <AnchorLink offset={100} href="#home" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#home" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         Home
       </AnchorLink>
-      <AnchorLink offset={100} href="#about" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#about" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         About
       </AnchorLink>
-      <AnchorLink offset={100} href="#projects" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#projects" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         Projects
       </AnchorLink>
-      <AnchorLink offset={100} href="#skills" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#skills" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         Skills
       </AnchorLink>
-      <AnchorLink offset={100} href="#experience" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#experience" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         Experience
       </AnchorLink>
-      <AnchorLink offset={100} href="#contact" className="text-gray-500 hover:text-black pt-0.5 rounded-md text-sm font-medium">
+      <AnchorLink offset={100} href="#contact" className="text-gray-500 focus:text-black hover:text-black pt-0.5 rounded-md text-sm font-medium">
         Contact
       </AnchorLink>
     </nav>
