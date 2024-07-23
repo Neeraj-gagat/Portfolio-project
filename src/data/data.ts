@@ -4,7 +4,7 @@ import image2 from "../../public/image2.jpg"
 import image3 from "../../public/image3.jpg"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
-import { CgWorkAlt } from "react-icons/cg"
+// import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
     {
