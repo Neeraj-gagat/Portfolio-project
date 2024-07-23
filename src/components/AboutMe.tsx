@@ -21,7 +21,7 @@ export const AboutMe = () => {
             feeling of finally figuring out a solution to a problem. My core stack
             is{" "}
             <span className="font-medium">
-            Java, JavaScript, React, Next.js, Node.js, and MongoDB
+            Java, JavaScript, React, Next.js, Node.js, Postgres, and MongoDB
             </span>
             . I am also familiar with<span className="font-medium"> Recoil, postgreSQL, TypeScript and Prisma.</span> I
             am always looking to learn new technologies. I am currently looking for

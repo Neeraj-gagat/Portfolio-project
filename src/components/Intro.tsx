@@ -9,7 +9,7 @@ import profile from "../../public/profilepic.jpg"
 
 
 export const Intro = () => {
-    const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "NextJS Developer"];
+    const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "Open Source Enthusiast", "NextJS Developer"];
 
     return <div className="content-center bg-gradient-to-b from-purple-200 via-pink-100 to-white  text-neutral-950 text-4xl text-center" id="home">
         <div className="flex justify-center pt-36">
@@ -18,17 +18,17 @@ export const Intro = () => {
         <div className="flex items-center justify-center pt-5 mx-auto">
             <div className="space-y-3">
             <div>
-                <span className="font-bold font-serif">Hello, I&apos;m Neeraj.</span> I&apos;m a
+                <span className="font-bold ">Hello, I&apos;m Neeraj.</span> I&apos;m a
                 <span className="font-bold"><WordsFlip className="!text-black" duration={2000} words={words} /></span>
             </div>
             <div>
                 with
-                <span className="font-bold">2 years</span> of experience. I enjoy
+                <span className="font-bold"> Freelancing</span> experience. I enjoy
                 building 
             </div>
             <div>
-                <span className="italic">websites</span>. My focus is
-                <span className="underline">React (Next.js)</span>.
+                <span className="italic">websites</span>.My focus is
+                <span className="underline"> Full Stack in MERN &(Next.js)</span>.
             </div>
             </div>
         </div>
