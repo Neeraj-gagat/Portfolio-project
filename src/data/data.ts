@@ -36,9 +36,9 @@ export const projectsdata = [
 export const experiencesData = [
     {
       title: "100xDevs",
-      location:"Remote",
+      location:"",
       description:
-        "Enrolled as a Student to learn Full Stack development at 100xDevs,Learning Full Stack development in MERN Stack, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
+        "Enrolled as a Student to learn Full Stack Web development at 100xDevs,Learning Full Stack development in MERN Stack & Next.js, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
       icon: React.createElement(LuGraduationCap),
       date: "2023 - 2024 - Present",
     },
@@ -56,7 +56,7 @@ export const experiencesData = [
       title: "High School 10 & 12",
       location: "Sangrur,Punjab, India",
       description:
-        "I completed my matriculation from Sewa Dall Public School with 7 CGPA and my senior secondary from Same  School with 88.60% marks where I studied Accountancy, Business Studies, Economics, Mathematics, English",
+        "I completed my matriculation from Sewa Dall Public School with 7 CGPA and my senior secondary from Same  School with 70.60% marks where I studied Accountancy, Business Studies, Economics, Mathematics, English",
       icon: React.createElement(LuSchool),
       date: "2017-2019",
     },

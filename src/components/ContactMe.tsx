@@ -1,37 +1,26 @@
 import { motion } from "framer-motion";
 import { FaPaperPlane } from "react-icons/fa";
 import { useState } from "react";
+import axios from "axios";
+
 
 
 export const ContactMe = () => {
-  
+  const [from, setfrom] = useState("");
+  const [body, setbody] = useState("");
 
-
-  const [formData, setFormData] = useState({});
-
-  const changeHandler = (event:any) => {
-    setFormData({...formData,[event.target.name]: event.target.value});
-  }
-  
-  const submitHandler = (event:React.FormEvent<any>) => {
-    event.preventDefault();
-    const config = {
-      Host : "smtp.elasticemail.com",
-      Username : "username",
-      Password : "password",
-      To : 'neerajgagat9999@gmail.com',
-      // @ts-ignore
-      From : formData.email,
-      Subject : "This is from my contact form",
-      // @ts-ignore
-      Body : `${formData.name} connected to you over email`,
-    };
-    // @ts-ignore
-    if(window.Email) {
-      // @ts-ignore
-      window.Email.send(config);
+  const sendEmail = async () => {
+    try {
+      const response = await axios.post('http://localhost:3000/send-email', {
+        from,
+        body,
+      });
+      console.log('Email sent successfully:', response.data);
+    } catch (error) {
+      console.error('Error sending email:', error);
     }
-  }
+  };
+  
 
     return <div className="flex justify-center">
     <motion.section
@@ -56,7 +45,9 @@ export const ContactMe = () => {
       </p>
       <form
         className="mt-10 flex flex-col items-center"
-        onSubmit={submitHandler}
+        onSubmit={ async() => {
+          await sendEmail();
+        }}
       >
         <input
           className="h-14 w-full rounded-lg border border-black/10 px-4"
@@ -65,7 +56,9 @@ export const ContactMe = () => {
           type="email"
           required
           maxLength={500}
-          onChange={changeHandler}
+          onChange={e => {
+            setfrom(e.target.value);
+          }}
         />
         <textarea
           className="h-52 w-full my-3 rounded-lg border border-black/10 p-4"
@@ -73,7 +66,9 @@ export const ContactMe = () => {
           name="message"
           required
           maxLength={1000}
-          onChange={changeHandler}
+          onChange={e => {
+            setbody(e.target.value);
+          }}
         />
         <button
           type="submit"
