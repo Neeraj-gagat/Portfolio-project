@@ -1,35 +1,35 @@
 import React from "react"
-import image1 from "../../public/image1.jpg"
-import image2 from "../../public/image2.jpg"
-import image3 from "../../public/image3.jpg"
+import zapier from "../../public/zapier.png"
+import portfolio from "../../public/portfolio.png"
+import medium from "../../public/medium.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
 // import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
     {
-        title: "Blogging Web App",
+        title: "Zapier Web App",
         description:
-        "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
-        tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:`${image1}?q=95`,
-        linkToProject:"www.google.com",
+        "The Zapier.com Clone, with Next.js and Node.js and Micro-Services, enables secure sign-in, Task automation, Boost Productivity and Save Time.",
+        tags: ["Next.JS", "JWT", "Typescript", "PostgreSQL" , "Node.JS"],
+        imageUrl:`${zapier}?q=95`,
+        linkToProject:"https://github.com/Neeraj-gagat/zapier",
 
     },
     {
-        title: "Blogging Web App",
+        title: "Portfolio Web App",
         description:
-        "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
-        tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:`${image2}?q=95`,
-        linkToProject:"www.google.com",
+        "This is Portfolio Website, with React.js , To Showcase My Projects and Skills and Experience .",
+        tags: ["ReactJS", "framer-motion", "Typescript", "Tailwind CSS" , "Aceternity UI"],
+        imageUrl:`${portfolio}?q=95`,
+        linkToProject:"https://portfolio-project-sand-nine.vercel.app/",
     },
     {title: "Blogging Web App",
         description:
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:`${image3}?q=95`,
-        linkToProject:"www.google.com",
+        imageUrl:`${medium}?q=95`,
+        linkToProject:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
     },
 ]
 
