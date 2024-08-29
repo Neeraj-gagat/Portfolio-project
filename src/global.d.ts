@@ -1,4 +1,0 @@
-
-interface window {
-    Email:any;
-  }

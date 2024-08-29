@@ -34,9 +34,9 @@ export const Project = ({
     }}
     className="group mb-3 sm:mb-8 last:mb-0"
     >      
-    <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border overflow-hidden sm:pr-8 relative sm:h-[24rem]  hover:bg-gray-200 transition group-even:pl-8">
-        <CardBody className="relative group/card w-auto h-auto rounded-xl mt-4 p-6">
-          <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
+    <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border-x overflow-hidden sm:pr-8 relative sm:h-[24rem]  hover:bg-gray-200 transition group-even:pl-8">
+        <CardBody className="relative group/card w-[35rem] h-[23rem] rounded-xl mt-4 p-6">
+          <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex justify-center flex-col h-full group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
             <ul className="flex flex-wrap gap-2 mt-5">
@@ -54,8 +54,7 @@ export const Project = ({
             <img
               src={imageUrl}
               alt="Project I worked on :-)"
-              // quality={95}
-              className="shadow-2xl absolute top-14 -right-40 w-[28.25rem] h-[18rem] rounded-t-lg transition group-hover:scale-[1.04]  group-even:right-[initial] group-even:-left-40"
+              className="shadow-2xl absolute top-14 -right-40 w-[28.25rem] h-[15rem] rounded-t-lg transition group-hover:scale-[1.04]  group-even:right-[initial] group-even:-left-40"
             />
           </a>
         </CardBody>

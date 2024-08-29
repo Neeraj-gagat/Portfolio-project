@@ -8,7 +8,7 @@ import SectionDivider from "../components/SectionDevider"
 import { Skills } from "../components/Skills"
 
 export const LandingPage = () => {
-    return <div className="bg-gray-50 max-h-screen">
+    return <div className="bg-violet-200 max-h-screen w-full ">
         <AppBar/>
         <Intro/>
         <SectionDivider/>
@@ -17,6 +17,6 @@ export const LandingPage = () => {
         <Skills/>
         <Experience/>
         <ContactMe/>
-
+        
     </div>
 }
