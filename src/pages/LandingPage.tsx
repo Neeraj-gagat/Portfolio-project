@@ -8,7 +8,7 @@ import SectionDivider from "../components/SectionDevider"
 import { Skills } from "../components/Skills"
 
 export const LandingPage = () => {
-    return <div className="bg-violet-200 max-h-screen w-full ">
+    return <div className="overflow-hidden">
         <AppBar/>
         <Intro/>
         <SectionDivider/>
