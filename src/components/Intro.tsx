@@ -3,7 +3,7 @@ import { GrGithub } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 // import { CgProfile } from "react-icons/cg";
-// import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import profile from "../../public/profilepic.jpg"
@@ -56,7 +56,7 @@ export const Intro = () => {
             </button>
             <div className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-200 active:scale-105 transition cursor-pointer border" ><GrGithub /> </div>
             <div className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-200 active:scale-105 transition cursor-pointer border"><FaLinkedin /></div>
-           
+            <div className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-200 active:scale-105 transition cursor-pointer border"><FaSquareXTwitter /></div>
         </div>
     </div>
 }

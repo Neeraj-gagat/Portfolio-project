@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { GrMail } from "react-icons/gr";
 import { GrGithub } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 
@@ -35,6 +36,8 @@ export const ContactMe = () => {
     <a href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" className="p-4 hover:scale-[1.15] hover:text-gray-900 transition cursor-pointer ">
       <FaLinkedin size={50}/>
     </a>
+    <a href="" className="p-4 hover:scale-[1.15] hover:text-gray-900 transition cursor-pointer ">
+      <FaSquareXTwitter size={50} /></a>
     </div>
   </motion.section>
   </div>
