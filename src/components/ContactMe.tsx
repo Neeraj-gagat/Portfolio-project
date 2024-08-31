@@ -26,7 +26,8 @@ export const ContactMe = () => {
     viewport={{ once: true }}
   >
     <div className="text-4xl font-serif mb-16">My Contacts</div>
-    <div className="justify-center flex space-x-8 ">
+    <div className="justify-center flex space-x-0 sm:space-x-8 ">
+      
     <a className="p-4 hover:scale-[1.15] hover:text-gray-900 transition cursor-pointer" href="mailto:Neerajgagat9999@gmail.com">
       <GrMail size={50}/>
     </a>
@@ -39,6 +40,7 @@ export const ContactMe = () => {
     <a href="" className="p-4 hover:scale-[1.15] hover:text-gray-900 transition cursor-pointer ">
       <FaSquareXTwitter size={50} /></a>
     </div>
+    
   </motion.section>
   </div>
 }

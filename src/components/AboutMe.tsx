@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 export const AboutMe = () => {
-    return <div id="about" className="flex justify-center">
+    return <div id="about" className="flex justify-center px-10">
             <motion.section
             className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 text-lg scroll-mt-28 justify-center"
             initial={{ opacity: 0, y: 100 }}

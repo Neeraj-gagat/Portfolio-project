@@ -8,7 +8,7 @@ export const Projects = () => {
   
   return (
     <div className="flex justify-center">
-    <div id="projects" className="scroll-mt-28 mb-24 max-w-xl sm:max-w-3xl">
+    <div id="projects" className="scroll-mt-28 mb-24 max-w-sm sm:max-w-3xl">
       <div className="flex justify-center text-4xl font-serif">My Projects</div>
       <div>
         {projectsdata.map((project: JSX.IntrinsicAttributes & { title: string; description: string; tags: string[]; imageUrl: string; linkToProject: string; }, index: React.Key | null | undefined) => (
