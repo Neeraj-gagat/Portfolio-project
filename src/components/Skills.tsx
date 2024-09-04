@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 
 export const Skills = () => {
     const skillsarr:string[] = [
-  "C/C++",
   "Java",
   "Next.js",
   "TypeScript",
   "React.js",
+  "Hono",
   "JavaScript",
+  "AWS",
   "CI/CD",
   "Docker",
   "Kubernetes",
@@ -34,6 +35,8 @@ export const Skills = () => {
   "Tailwind CSS",
   "noSQL",
   "Recoil",
+  "Redux",
+  "kafka",
   "Serverless Backends",
   "ExpressJS",
   "REST APIs",

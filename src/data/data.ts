@@ -11,10 +11,9 @@ export const projectsdata = [
         title: "Zapier Web App",
         description:
         "The Zapier.com Clone, with Next.js and Node.js and Micro-Services, enables secure sign-in, Task automation, Boost Productivity and Save Time.",
-        tags: ["Next.JS", "JWT", "Typescript", "PostgreSQL" , "Node.JS"],
+        tags: ["Next.JS", "JWT", "Typescript", "PostgreSQL", "Node.JS", "Microservices", "kafka"],
         imageUrl:`${zapier}?q=95`,
         linkToProject:"https://github.com/Neeraj-gagat/zapier",
-
     },
     {
         title: "Portfolio Web App",
@@ -45,9 +44,9 @@ export const experiencesData = [
   
     {
       title: "Bachelor of Computer Application,Punjabi University, Patiala",
-      location: "Pataila, Punjab, India",
+      location: "Patiala, Punjab, India",
       description:
-        "Completed my Graduation in Computer Science from Punjabi University Pataila. I learned C, C++, Java, Data Structures, Algorithms, DBMS, SQL, OS, Computer Networks, Web Development, Software Engineering, etc.",
+        "Completed my Graduation in Computer Science from Punjabi University Patiala. I learned C, C++, Java, Data Structures, Algorithms, DBMS, SQL, OS, Computer Networks, Web Development, Software Engineering, etc.",
       icon: React.createElement(LuGraduationCap),
       date: "2020-2023",
     },

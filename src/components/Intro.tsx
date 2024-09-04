@@ -13,7 +13,7 @@ import profile from "../../public/profilepic.jpg"
 export const Intro = () => {
     const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "Open Source Enthusiast", "NextJS Developer"];
 
-    return <div className="content-center bg-gradient-to-b from-purple-200 via-pink-100 to-white  text-neutral-950 text-4xl text-center" id="home">
+    return <div className=" content-center bg-gradient-to-b from-purple-200 via-pink-100 to-white  text-neutral-950 text-4xl text-center" id="home">
         <div className="flex justify-center pt-36">
             <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -32,7 +32,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         >
             <div className="space-y-3 text-sm sm:text-3xl">
-                <div>
+                <div className="overflow-y-hidden">
                     <span className="font-bold ">Hello, I&apos;m Neeraj.</span> I&apos;m a
                     <span className="font-bold"><WordsFlip className="!text-black" duration={2000} words={words} /></span>
                 </div>
