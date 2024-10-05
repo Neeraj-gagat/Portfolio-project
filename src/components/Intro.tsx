@@ -11,7 +11,7 @@ import profile from "../../public/profilepic.jpg"
 
 
 export const Intro = () => {
-    const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "Open Source Enthusiast", "NextJS Developer"];
+    const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "Open Source Contributer", "NextJS Developer"];
 
     return <div className=" content-center bg-gradient-to-b from-purple-200 via-pink-100 to-white  text-neutral-950 text-4xl text-center" id="home">
         <div className="flex justify-center pt-36">
