@@ -34,7 +34,7 @@ export const Project = ({
     }}
     className=" mb-3 sm:mb-8 last:mb-0"
     >      
-    <CardContainer className="inter-var bg-gray-100 rounded-lg max-w-[42rem] border-x overflow-hidden pr-10 sm:pr-8 relative h-[13rem] sm:h-[24rem]  hover:bg-gray-200 transition ">
+    <CardContainer className="inter-var bg-gray-100 shadow-xl rounded-lg max-w-[42rem] border-x overflow-hidden pr-10 sm:pr-8 relative h-[13rem] sm:h-[24rem]  hover:bg-gray-200 transition ">
         <CardBody className="relative group/card w-[21rem] sm:w-[35rem] h-[15] sm:h-[23rem] rounded-xl mt-4 p-6 ">
           <div className="pt-4 pb-7 px-5 pl-0 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex justify-center flex-col h-full group-even:ml-[18rem]">
             <h3 className="text-sm sm:text-2xl font-semibold">{title}</h3>

@@ -12,7 +12,7 @@ export const projectsdata = [
         description:
         "The Zapier.com Clone, with Next.js and Node.js and Micro-Services, enables secure sign-in, Task automation, Boost Productivity and Save Time.",
         tags: ["Next.JS", "JWT", "Typescript", "PostgreSQL", "Node.JS", "Microservices", "kafka"],
-        imageUrl:`${zapier}?q=95`,
+        imageUrl:zapier,
         linkToProject:"https://github.com/Neeraj-gagat/zapier",
     },
     {
@@ -20,14 +20,14 @@ export const projectsdata = [
         description:
         "This is Portfolio Website, with React.js , To Showcase My Projects and Skills and Experience .",
         tags: ["ReactJS", "framer-motion", "Typescript", "Tailwind CSS" , "Aceternity UI"],
-        imageUrl:`${portfolio}?q=95`,
+        imageUrl:portfolio,
         linkToProject:"https://portfolio-project-sand-nine.vercel.app/",
     },
     {title: "Blogging Web App",
         description:
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
-        imageUrl:`${medium}?q=95`,
+        imageUrl:medium,
         linkToProject:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
     },
 ]
