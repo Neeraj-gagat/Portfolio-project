@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 export const AboutMe = () => {
-    return <div id="about" className="flex justify-center px-10">
+    return <div id="about" className="flex bg-customstag justify-center px-10">
             <motion.section
             className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 text-lg scroll-mt-28 justify-center"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
         >
-            <div className="pb-10 font-serif text-4xl">About Me</div>
+            <div className="pb-10 font-serif text-black font-semibold text-4xl">About Me</div>
             <p className="mb-3">
             Completed My Bachelor of Technology degree in{" "}
             <span className="font-medium">Computer Science and Computer Applications</span> at

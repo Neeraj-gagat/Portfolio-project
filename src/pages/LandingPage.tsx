@@ -8,7 +8,7 @@ import SectionDivider from "../components/SectionDevider"
 import { Skills } from "../components/Skills"
 
 export const LandingPage = () => {
-    return <div className="overflow-hidden">
+    return <div className="bg-customstag overflow-hidden">
         <AppBar/>
         <Intro/>
         <SectionDivider/>

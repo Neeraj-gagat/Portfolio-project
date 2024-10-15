@@ -54,14 +54,14 @@ export const Skills = () => {
     }),
   };
     
-    return <div id="skills" className="flex justify-center">
+    return <div id="skills" className="flex justify-center bg-customstag">
                 <div className="mb-28 justify-center max-w-[53rem] scroll-mt-28 text-center sm:mb:40">
-                    <div className="text-4xl font-serif"> My Skills</div>
+                    <div className="text-4xl font-semibold font-serif"> My Skills</div>
                         <div className=" mt-12">
-                            <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+                            <ul className="flex flex-wrap justify-center gap-2 text-lg text-black">
                                 {skillsarr.map((skill, index) => (
                                     <motion.li
-                                    className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 hover:bg-gray-100 transition-colors duration-200 cursor-default"
+                                    className="bg-customcream border-black/[0.1] rounded-2xl px-5 py-3 hover:bg-customcreamd transition-colors duration-200 cursor-default"
                                     key={index}
                                     variants={fadeInAnimationVariants}
                                     initial="initial"
