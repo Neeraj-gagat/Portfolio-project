@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        customstag: "#364037",
-        customcream: "#c3c9a1",
-        customcreamd: "#aab37d"
+        customstag: "#4C4C44",
+        customcream: "#D4C7B4",
+        // customcreamd: "#d3c1a7"
+        customcreamd: "#d8c1a0"
       }
     },
   },

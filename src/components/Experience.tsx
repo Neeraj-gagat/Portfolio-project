@@ -16,13 +16,13 @@ export const Experience = () =>{
     className="scroll-mt-28 mb-28 sm:mb-40 bg-customstag"
   >
     <div className="flex justify-center text-4xl mb-14 font-semibold font-serif">My Experience</div>
-    <VerticalTimeline lineColor="#c3c9a1">
+    <VerticalTimeline lineColor="black">
       {experiencesData.map((item, index) => (
         <React.Fragment key={index}>
           <VerticalTimelineElement
             visible={true}
             contentStyle={{
-              background: "#c3c9a1",
+              background: "#D4C7B4",
               boxShadow: "none",
               border: "3px solid black",
               textAlign: "left",
@@ -34,7 +34,7 @@ export const Experience = () =>{
             date={item.date}
             icon={item.icon}
             iconStyle={{
-              background: "#c3c9a1",
+              background: "#D4C7B4",
               fontSize: "1.5rem",
               color: "black",
               boxShadow:"inherit"

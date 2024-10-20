@@ -48,7 +48,7 @@ export const Intro = () => {
             </div>
         </motion.div>
         <div className="flex flex-col justify-center gap-[1.3rem] px-4 sm:flex-row items-center text-lg font-medium mx-11 mt-10">
-            <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-gray-900 hover:bg-black border-none text-white gap-2 px-7 py-2 text-lg rounded-full shadow-xl flex" >Contact Me Here 
+            <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-black hover:bg-black border-none text-white gap-2 px-7 py-2 text-lg rounded-full shadow-xl flex" >Contact Me Here 
                  <div className="flex pt-1.5 size-8 text-white pl-2"><BsArrowRight/></div>
             </AnchorLink>
             <button className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-customcreamd active:scale-105 text-black bg-customcream px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
