@@ -29,7 +29,7 @@ export const Experience = () =>{
               padding: "1.3rem 2rem",
             }}
             contentArrowStyle={{
-              borderRight: "0.4rem solid #c3c9a1",
+              borderRight: "0.4rem solid #D4C7B4",
             }}
             date={item.date}
             icon={item.icon}
