@@ -51,9 +51,9 @@ export const Intro = () => {
             <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-black hover:bg-black border-none text-white gap-2 px-7 py-2 text-lg rounded-full shadow-xl flex" >Contact Me Here 
                  <div className="flex pt-1.5 size-8 text-white pl-2"><BsArrowRight/></div>
             </AnchorLink>
-            <button className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-customcreamd active:scale-105 text-black bg-customcream px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
+            <a href="../../public/Resume-Neeraj.pdf" download={"Resume-Neeraj.pdf"} className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-customcreamd active:scale-105 text-black bg-customcream px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
                 <div className="pt-1.5 text-gray-500 mx-1"><HiDownload/></div>
-            </button>
+            </a>
             <div className="flex gap-[1.3rem]">
             <a className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl bg-customcream rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-customcreamd active:scale-105 transition cursor-pointer border" href="https://github.com/Neeraj-gagat" target="_blank" ><GrGithub /> </a>
             <a className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl bg-customcream rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-customcreamd active:scale-105 transition cursor-pointer border" href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><FaLinkedin /></a>
