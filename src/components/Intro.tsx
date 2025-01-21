@@ -51,7 +51,7 @@ export const Intro = () => {
             <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-black hover:bg-black border-none text-white gap-2 px-7 py-2 text-lg rounded-full shadow-xl flex" >Contact Me Here 
                  <div className="flex pt-1.5 size-8 text-white pl-2"><BsArrowRight/></div>
             </AnchorLink>
-            <a href="../../public/Resume-Neeraj.pdf" download={"Resume-Neeraj.pdf"} className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-customcreamd active:scale-105 text-black bg-customcream px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
+            <a href="/Resume-Neeraj.pdf" download="My-Resume.pdf" className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-customcreamd active:scale-105 text-black bg-customcream px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
                 <div className="pt-1.5 text-gray-500 mx-1"><HiDownload/></div>
             </a>
             <div className="flex gap-[1.3rem]">
