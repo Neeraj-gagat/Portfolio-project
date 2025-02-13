@@ -2,11 +2,20 @@ import React from "react"
 import zapier from "../../public/zapier.png"
 import portfolio from "../../public/portfolio.png"
 import medium from "../../public/medium.png"
+import atlantic from "../../public/atlantic.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
 // import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
+    {
+      title: "Freelancing project",
+      description:
+      "Designed and developed a high-performance, responsive website for a Dubai-based immigration company, enhancing brand presence and user experience.",
+      tags: ["Next.JS", "Framer-motion", "Typescript"],
+      imageUrl:atlantic,
+      linkToProject:"https://atlanticglobalvisa.com",
+    },
     {
         title: "Zapier Web App",
         description:
