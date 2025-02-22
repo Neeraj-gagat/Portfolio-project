@@ -12,7 +12,7 @@ export const projectsdata = [
       title: "Freelancing project",
       description:
       "Designed and developed a high-performance, responsive website for a Dubai-based immigration company, enhancing brand presence and user experience.",
-      tags: ["Next.JS", "Framer-motion", "Typescript"],
+      tags: ["Next.JS", "Framer-motion", "Typescript", "AWS", "ec2", "s3"],
       imageUrl:atlantic,
       linkToProject:"https://atlanticglobalvisa.com",
     },
