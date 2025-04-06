@@ -12,7 +12,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 // import axios from "axios";
 
 export const ContactMe = () => {
-  return <div className="flex bg-customstag justify-center"> 
+  return <div className="flex bg-black justify-center"> 
   <motion.section
   id="contact"
     className="text-center mb-20 sm:mb-28 w-[min(100%,38rem)]"
@@ -25,20 +25,20 @@ export const ContactMe = () => {
     }}
     viewport={{ once: true }}
   >
-    <div className="text-4xl font-serif font-semibold mb-16">My Contacts</div>
+    <div className="text-4xl font-serif text-white font-semibold mb-16">My Contacts</div>
     <div className="justify-center flex space-x-0 sm:space-x-8 ">
       
     <a className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer" href="mailto:Neerajgagat9999@gmail.com">
-      <GrMail size={50}/>
+      <GrMail color="white" size={50}/>
     </a>
     <a className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer " href="https://github.com/Neeraj-gagat">
-      <GrGithub size={50}/>
+      <GrGithub color="white" size={50}/>
     </a>
     <a href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer ">
-      <FaLinkedin size={50}/>
+      <FaLinkedin color="white" size={50}/>
     </a>
     <a href="https://x.com/Neeraj_tw" className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer ">
-      <FaSquareXTwitter size={50} /></a>
+      <FaSquareXTwitter color="white" size={50} /></a>
     </div>
     
   </motion.section>

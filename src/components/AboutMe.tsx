@@ -1,22 +1,22 @@
 import { motion } from "framer-motion";
 
 export const AboutMe = () => {
-    return <div id="about" className="flex bg-customstag justify-center px-10">
+    return <div id="about" className="flex bg-black justify-center px-10">
             <motion.section
             className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 text-base scroll-mt-28 justify-center"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
         >
-            <div className="pb-10 font-serif text-black font-semibold text-4xl">About Me</div>
-            <p className="mb-3">
+            <div className="pb-10 font-serif text-white font-semibold text-4xl">About Me</div>
+            <p className="mb-3 text-white text-base md:text-xl text-justify">
             Completed My Bachelor of Technology degree in{" "}
             <span className="font-medium">Computer Science and Computer Applications</span> at
             Punjabi University, Patiala. I am skilled in{" "}
             <span className="font-medium">
             full-stack web development and problem solving
             </span>
-            . <span className="italic">My favorite part of programming</span> is the
+            . <span className="">My favorite part of programming</span> is the
             problem-solving aspect. I <span className="underline">love</span> the
             feeling of finally figuring out a solution to a problem. My core stack
             is{" "}
@@ -29,8 +29,8 @@ export const AboutMe = () => {
             developer/engineer.
         </p>
 
-        <p>
-            <span className="italic">When I&apos;m not coding</span>, I enjoy
+        <p className="text-white text-justify text-base md:text-xl">
+            <span className="">When I&apos;m not coding</span>, I enjoy
             playing video games, watching movies, and go to the gym. I also 
             enjoy Reading About AI & WEB 3{" "}
         </p>

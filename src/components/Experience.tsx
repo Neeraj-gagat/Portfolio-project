@@ -13,36 +13,37 @@ export const Experience = () =>{
     transition={{ type:"tween" , duration: 1, delay: 0.2}}
     viewport={{ once: true }}
     id="experience"
-    className="scroll-mt-28 mb-28 sm:mb-40 bg-customstag"
+    className="scroll-mt-28 mb-28 sm:mb-40 bg-black"
   >
-    <div className="flex justify-center text-4xl mb-14 font-semibold font-serif">My Experience</div>
+    <div className="flex justify-center text-white text-4xl mb-14 font-semibold font-serif">My Experience</div>
     <VerticalTimeline lineColor="black">
       {experiencesData.map((item, index) => (
         <React.Fragment key={index}>
           <VerticalTimelineElement
             visible={true}
             contentStyle={{
-              background: "#D4C7B4",
+              background: "black",
               boxShadow: "none",
-              border: "3px solid black",
+              border: "5px solid white",
               textAlign: "left",
               padding: "1.3rem 2rem",
             }}
             contentArrowStyle={{
-              borderRight: "0.4rem solid #D4C7B4",
+              borderRight: "0.4rem solid black",
             }}
             date={item.date}
             icon={item.icon}
             iconStyle={{
-              background: "#D4C7B4",
+              viewTimeline:"white",
+              background: "white",
               fontSize: "1.5rem",
               color: "black",
               boxShadow:"inherit"
             }}
           >
-            <h3 className="font-semibold capitalize">{item.title}</h3>
-            <p className="font-normal !mt-0">{item.location}</p>
-            <p className="!mt-1 !font-normal text-gray-900">
+            <h3 className="font-semibold text-white capitalize">{item.title}</h3>
+            <p className="font-normal text-white !mt-0">{item.location}</p>
+            <p className="!mt-1 !font-normal text-white">
               {item.description}
             </p>
           </VerticalTimelineElement>
