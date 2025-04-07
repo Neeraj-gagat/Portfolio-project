@@ -6,7 +6,7 @@ export default function SectionDivider() {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1,y: [0, 20, 0], transition: { duration: 1.5, repeat: Infinity, repeatType: "mirror"} }}
-        className="my-24 text-white"
+        className="my-10 md:my-14 text-white"
       >
         <MdKeyboardDoubleArrowDown className="text-5xl" />
       </motion.div>

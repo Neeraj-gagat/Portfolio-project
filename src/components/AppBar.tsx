@@ -9,7 +9,7 @@ export const AppBar = () =>{
     animate={{ y: 0, x: "-50%", opacity: 1 }}
     >
     <nav className="flex justify-center w-[20rem] space-x-4 sm:space-x-10 sm:w-[30rem] mt-2 sm:mt-0">
-      <AnchorLink offset={100} href="#home" className="text-gray-900 focus:text-black hover:text-black pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#home" className="text-slate-900 focus:text-black hover:text-black pt-0.5 rounded-md text-xs md:text-sm font-medium">
         Home
       </AnchorLink>
       <AnchorLink offset={100} href="#about" className="text-gray-900 focus:text-black hover:text-black pt-0.5 rounded-md text-xs md:text-sm font-medium">

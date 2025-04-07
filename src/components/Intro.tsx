@@ -1,12 +1,13 @@
 import  { WordsFlip }  from "./ui/WordsFlip";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 import { GrGithub } from "react-icons/gr";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { BsArrowRight } from "react-icons/bs";
+// import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import profile from "../../public/profilepic.jpg"
+// import profile from "../../public/profilepic.jpg"
+import Avatar from "./ui/Avatar-animation";
 
 
 
@@ -23,41 +24,47 @@ export const Intro = () => {
               duration: 0.2,
             }}
           >
-            <img src={profile} className="size-28 rounded-full border-4 border-customcream" alt="image is not available" />
+            {/* <img src={profile} className="size-28 rounded-full border-4 border-customcream" alt="image is not available" /> */}
+            <Avatar/>
             </motion.div>
             
             </div>
-        <motion.div className="flex items-center justify-center pt-5"
+        <motion.div className="flex items-center justify-center font-sans pt-5"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-            <div className="space-y-3 text-sm sm:text-3xl">
-                <div className="overflow-y-hidden">
-                    <span className="font-bold ">Hello, I&apos;m Neeraj.</span> I&apos;m a
-                    <span className="font-bold"><WordsFlip className="!text-white" duration={2000} words={words} /></span>
+            <div className="space-y-3 text-base sm:text-2xl">
+                <div className="overflow-y-hidden flex">
+                    <p className="font-bold text-blue-600">Hello, I&apos;m Neeraj.</p> 
                 </div>
-                <div>
-                    with
-                    <span className="font-bold"> Freelancing</span> experience. I enjoy
-                    building 
+                <div className="flex">
+                <p className="font-bold">I&apos;m a <WordsFlip className="!text-white" duration={2000} words={words} /></p>
                 </div>
-                <div>
-                    <span className="italic">websites</span>.My focus is
-                    <span className="underline"> Full Stack in MERN &(Next.js)</span>.
+                <div className="flex">
+                    <p>with <strong> Freelancing</strong> experience. I enjoy building </p>
+                </div>
+                <div className="flex">
+                    <p className=" pr-1">websites.My focus is</p>
+                    <p className="underline decoration-blue-600"> Full Stack in MERN &(Next.js)</p>.
                 </div>
             </div>
         </motion.div>
-        <div className="flex flex-col justify-center gap-[1.3rem] px-4 sm:flex-row items-center text-lg font-medium mx-11 mt-10">
-            <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-white hover:bg-zinc-300 border-none text-black gap-2 px-7 py-2 text-lg rounded-full shadow-xl flex" >Contact Me Here 
-                 <div className="flex pt-1.5 size-8 text-black pl-2"><BsArrowRight/></div>
-            </AnchorLink>
-            <a href="/Resume.pdf" download="Resume.pdf" className="focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-zinc-300 active:scale-105 text-black bg-white px-7 py-2.5 text-lg border-black rounded-full shadow-xl flex">Download CV
-                <div className="pt-1.5 text-gray-500 mx-1"><HiDownload color="black"/></div>
-            </a>
+        <div className="flex flex-col justify-center gap-[1.3rem] px-4 sm:flex-row text-lg font-medium mx-11 mt-10">
+            <div className="flex flex-row  space-x-8">
+            {/* <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-white hover:bg-zinc-300 border-none text-black gap-1 px-5 py-2 text-sm md:text-lg rounded-full shadow-xl flex" >Contact 
+                 <div className="flex pt-1 size-8 text-black pl-2"><BsArrowRight/></div>
+            </AnchorLink> */}
+            <a href="/Resume.pdf" download="Resume.pdf" className="items-center focus:scale-[1.10] hover:scale-[1.10] transition hover:bg-zinc-300 active:scale-105 text-black bg-white px-5  text-sm md:text-lg border-black rounded-full shadow-xl flex">Resume
+                <div className="pt-1 md:pt-1.5 text-gray-500 mx-1"><HiDownload color="black"/></div>
+            </a>    
+            <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://github.com/Neeraj-gagat" target="_blank" ><GrGithub color="black"  /> </a>
+            <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://x.com/Neeraj_tw" target="_blank"><FaSquareXTwitter color="black" /></a>
+            </div>
+            
             <div className="flex gap-[1.3rem]">
-            <a className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://github.com/Neeraj-gagat" target="_blank" ><GrGithub color="black"  /> </a>
-            <a className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><FaLinkedin color="black" /></a>
-            <a className="group border-black/10 p-4 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://x.com/Neeraj_tw" target="_blank"><FaSquareXTwitter color="black" /></a>
+            {/* <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://github.com/Neeraj-gagat" target="_blank" ><GrGithub color="black"  /> </a> */}
+            {/* <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><FaLinkedin color="black" /></a>
+            <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://x.com/Neeraj_tw" target="_blank"><FaSquareXTwitter color="black" /></a> */}
             </div>
         </div>
     </div>
