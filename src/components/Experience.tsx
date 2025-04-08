@@ -32,6 +32,7 @@ export const Experience = () =>{
               borderRight: "0.4rem solid black",
             }}
             date={item.date}
+            dateClassName="text-white"
             icon={item.icon}
             iconStyle={{
               viewTimeline:"white",

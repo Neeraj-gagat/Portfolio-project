@@ -8,7 +8,7 @@ export const AboutMe = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
         >
-            <div className="pb-10 font-serif text-white font-semibold text-4xl">About Me</div>
+            <div className="pb-10 font-serif text-white font-semibold text-3xl">About Me</div>
             <p className="mb-3 text-white text-base md:text-xl text-justify">
             Completed My Bachelor of Technology degree in{" "}
             <span className="font-medium">Computer Science and Computer Applications</span> at
