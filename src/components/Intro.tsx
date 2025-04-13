@@ -38,7 +38,7 @@ export const Intro = () => {
                     <p className="font-bold text-blue-600">Hello, I&apos;m Neeraj.</p> 
                 </div>
                 <div className="flex">
-                <p className="font-bold">I&apos;m a <WordsFlip className="!text-white" duration={2000} words={words} /></p>
+                <p className="font-medium">I&apos;m a <WordsFlip className="!text-white" duration={2000} words={words} /></p>
                 </div>
                 <div className="flex">
                     <p>with <strong> Freelancing</strong> experience. I enjoy building </p>
