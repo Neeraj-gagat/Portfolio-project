@@ -37,7 +37,7 @@ export const Project = ({
     // }}
     className=" mb-3 sm:mb-8 last:mb-0"
     >      
-    <div className="bg-transparent w-[350px] h-[430px] border-opacity-20 backdrop-blur-[0.3rem] border-[0.1px] border-white rounded-xl overflow-hidden p-0">
+    <div className="bg-transparent w-[370px] md:w-[350px] h-[430px] border-opacity-20 backdrop-blur-[0.3rem] border-[0.1px] border-white rounded-xl overflow-hidden p-0">
       <img src={imageUrl} alt="image" />
       <div className="p-3">
         <p className="text-base text-white font-black pt-4">{title}</p>
@@ -49,28 +49,34 @@ export const Project = ({
               <ul className="text-white text-[9px] font-semibold bg-white/[0.1] px-2 py-1 uppercase tracking-wider rounded-lg">{tag}</ul>
           </div>
         ))}</div>
-        <a
+        {linkToProject && (
+          <a
           href={linkToProject}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-5 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+          className="inline-block mt-5 mr-2 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
         >
           <div className="flex items-center gap-1">
             <IoLogoGithub size={15} />
             <p className="text-[9.5px]">source</p>
           </div>
         </a>
-        <a
+        )}
+        
+        {liveLink && (
+          <a
           href={liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-5 ml-2 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+          className="inline-block mt-5 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
         >
           <div className="flex items-center gap-1">
             <GoGlobe size={15} />
             <p className="text-[9.5px]">website</p>
           </div>
         </a>
+        )}
+        
         </div>
         
       </div>

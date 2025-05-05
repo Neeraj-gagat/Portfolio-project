@@ -40,7 +40,7 @@ export const projectsdata = [
         "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
         imageUrl:medium,
-        linkToProject:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
+        linkToProject:"https://github.com/Neeraj-gagat",
         liveLink:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
     },
 ]
