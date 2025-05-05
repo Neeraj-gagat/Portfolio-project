@@ -14,7 +14,8 @@ export const projectsdata = [
       "Designed and developed a high-performance, responsive website for a Dubai-based immigration company, enhancing brand presence and user experience.",
       tags: ["Next.JS", "Framer-motion", "Typescript", "AWS", "ec2", "s3"],
       imageUrl:atlantic,
-      linkToProject:"https://atlanticglobalvisa.com",
+      linkToProject:"",
+      liveLink:"https://atlanticglobalvisa.com",
     },
     {
         title: "Zapier Web App",
@@ -23,6 +24,7 @@ export const projectsdata = [
         tags: ["Next.JS", "JWT", "Typescript", "PostgreSQL", "Node.JS", "Microservices", "kafka"],
         imageUrl:zapier,
         linkToProject:"https://github.com/Neeraj-gagat/zapier",
+        liveLink:"",
     },
     {
         title: "Portfolio Web App",
@@ -30,7 +32,8 @@ export const projectsdata = [
         "This is Portfolio Website, with React.js , To Showcase My Projects and Skills and Experience .",
         tags: ["ReactJS", "framer-motion", "Typescript", "Tailwind CSS" , "Aceternity UI"],
         imageUrl:portfolio,
-        linkToProject:"https://portfolio-project-sand-nine.vercel.app/",
+        linkToProject:"https://github.com/Neeraj-gagat/Portfolio-project",
+        liveLink:"https://portfolio-project-sand-nine.vercel.app/",
     },
     {title: "Blogging Web App",
         description:
@@ -38,6 +41,7 @@ export const projectsdata = [
         tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL" , "Serverless"],
         imageUrl:medium,
         linkToProject:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
+        liveLink:"https://medium-frontend-neeraj-gagats-projects.vercel.app/",
     },
 ]
 

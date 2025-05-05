@@ -1,8 +1,10 @@
 import { projectsdata } from "../data/data";
-import { useScroll, useTransform } from "framer-motion";
-import  { useRef } from "react";
+// import { useScroll, useTransform } from "framer-motion";
+// import  { useRef } from "react";
+import { IoLogoGithub } from "react-icons/io";
+import { GoGlobe } from "react-icons/go";
 // import Image from '../..public/image1.jpg'
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+// import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { motion } from "framer-motion";
 
 
@@ -15,50 +17,64 @@ export const Project = ({
     tags,
     imageUrl,
     linkToProject,
+    liveLink,
 }:ProjectProps) => {
-    const sectionRef = useRef<HTMLDivElement>(null);
-    const { scrollYProgress } = useScroll({
-      target: sectionRef,
-      offset: ["0 1", "1.33 1"],
-    });
+    // const sectionRef = useRef<HTMLDivElement>(null);
+    // const { scrollYProgress } = useScroll({
+    //   target: sectionRef,
+    //   offset: ["0 1", "1.33 1"],
+    // });
 
-    const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-    const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+    // const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+    // const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <motion.div
-    ref={sectionRef}
-    style={{
-    scale: scaleProgress,
-    opacity: opacityProgress,
-    }}
+    // ref={sectionRef}
+    // style={{
+    // scale: scaleProgress,
+    // opacity: opacityProgress,
+    // }}
     className=" mb-3 sm:mb-8 last:mb-0"
     >      
-    <CardContainer className="inter-var bg-white shadow-2xl rounded-lg max-w-[42rem] overflow-hidden pr-10 sm:pr-8 relative h-[13rem] sm:h-[24rem]  hover:bg-zinc-300 transition ">
-        <CardBody className="relative group/card w-[21rem] sm:w-[35rem] h-[15] sm:h-[23rem] rounded-xl mt-4 p-6 ">
-          <div className="pt-4 pb-7 px-5 pl-0 sm:pl-2 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex justify-center flex-col h-full group-even:ml-[18rem]">
-            <h3 className="text-sm sm:text-2xl font-semibold">{title}</h3>
-            <p className="mt-2 leading-relaxed text-xs sm:text-[1rem] text-black/[0.9] pr-24  sm:pr-10">{description}</p>
-            <ul className="flex flex-wrap gap-2  pr-16 sm:pr-4 mt-5">
-              {tags.map((tag, index) => (
-                <CardItem key={index}>
-                  <li
-                  className="bg-black/[0.9] px-3 py-1 text-[0.4rem] sm:text-[0.6rem] uppercase tracking-wider text-white rounded-full">
-                  {tag}
-                </li>
-                </CardItem>
-              ))}
-            </ul>
+    <div className="bg-transparent w-[350px] h-[430px] border-opacity-20 backdrop-blur-[0.3rem] border-[0.1px] border-white rounded-xl overflow-hidden p-0">
+      <img src={imageUrl} alt="image" />
+      <div className="p-3">
+        <p className="text-base text-white font-black pt-4">{title}</p>
+        <p className="text-white text-[13px] pt-1 text-opacity-50">{description}</p>
+        
+        <div className="bottom-2 fixed">
+        <div className="flex flex-wrap gap-2 mt-2 pt-5">{tags.map( (tag, index) => (
+          <div className="" key={index}>
+              <ul className="text-white text-[9px] font-semibold bg-white/[0.1] px-2 py-1 uppercase tracking-wider rounded-lg">{tag}</ul>
           </div>
-          <a href={linkToProject} target="_blank" style={{ cursor: "pointer" }}>
-            <img
-              src={imageUrl}
-              alt="Project I worked on :-)"
-              className="shadow-2xl absolute top-14 -right-36 w-[18] sm:w-[28.25rem] h-[8rem] sm:h-[15rem] rounded-t-lg transition group-hover:scale-[1.04]"
-            />
-          </a>
-        </CardBody>
-      </CardContainer>
+        ))}</div>
+        <a
+          href={linkToProject}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-5 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+        >
+          <div className="flex items-center gap-1">
+            <IoLogoGithub size={15} />
+            <p className="text-[9.5px]">source</p>
+          </div>
+        </a>
+        <a
+          href={liveLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-5 ml-2 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+        >
+          <div className="flex items-center gap-1">
+            <GoGlobe size={15} />
+            <p className="text-[9.5px]">website</p>
+          </div>
+        </a>
+        </div>
+        
+      </div>
+    </div>
     </motion.div>
   );
 }

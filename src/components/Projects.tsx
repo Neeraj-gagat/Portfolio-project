@@ -10,11 +10,11 @@ export const Projects = () => {
     <div className="flex justify-center bg-black">
     <div id="projects" className="scroll-mt-28 mb-24 max-w-sm sm:max-w-3xl">
       <div className="flex justify-center text-4xl mb-12 font-semibold text-white font-serif">My Projects</div>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
         {projectsdata.map((project: JSX.IntrinsicAttributes & { title: string; description: string; tags: string[]; imageUrl: string; linkToProject: string; }, index: React.Key | null | undefined) => (
-          <React.Fragment key={index}>
+          <div key={index}>
             <Project {...project} />
-          </React.Fragment>
+          </div>
         ))}
       </div>
     </div>
