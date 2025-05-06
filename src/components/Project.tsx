@@ -54,11 +54,11 @@ export const Project = ({
           href={linkToProject}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-5 mr-2 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+          className="inline-block mt-5 mr-2 text-black text-[9px] w-[80px] font-bold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
         >
           <div className="flex items-center gap-1">
             <IoLogoGithub size={15} />
-            <p className="text-[9.5px]">source</p>
+            <p className="text-[9.5px] font-bold">source</p>
           </div>
         </a>
         )}
@@ -68,7 +68,7 @@ export const Project = ({
           href={liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-5 text-black text-[9px] w-[80px] font-semibold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
+          className="inline-block mt-5 text-black text-[9px] w-[80px] font-bold bg-white/[0.8] px-2 py-1 uppercase tracking-wider rounded-lg"
         >
           <div className="flex items-center gap-1">
             <GoGlobe size={15} />
