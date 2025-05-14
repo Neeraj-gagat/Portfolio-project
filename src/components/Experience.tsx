@@ -15,7 +15,7 @@ export const Experience = () =>{
     id="experience"
     className="scroll-mt-28 mb-28 sm:mb-40 bg-black"
   >
-    <div className="flex justify-center text-white text-4xl mb-14 font-semibold font-serif">My Experience</div>
+    <div className="flex justify-center text-white text-4xl mb-14 font-serif">My Experience</div>
     <VerticalTimeline lineColor="black">
       {experiencesData.map((item, index) => (
         <React.Fragment key={index}>
@@ -24,7 +24,7 @@ export const Experience = () =>{
             contentStyle={{
               background: "black",
               boxShadow: "none",
-              border: "5px solid white",
+              border: "0.5px solid white",
               textAlign: "left",
               padding: "1.3rem 2rem",
             }}
@@ -42,9 +42,9 @@ export const Experience = () =>{
               boxShadow:"inherit"
             }}
           >
-            <h3 className="font-semibold text-white capitalize">{item.title}</h3>
-            <p className="font-normal text-white !mt-0">{item.location}</p>
-            <p className="!mt-1 !font-normal text-white">
+            <h3 className="text-white capitalize">{item.title}</h3>
+            <p className=" text-white !mt-0">{item.location}</p>
+            <p className="!mt-1 text-sm text-slate-300">
               {item.description}
             </p>
           </VerticalTimelineElement>

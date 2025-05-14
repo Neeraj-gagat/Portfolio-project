@@ -8,28 +8,27 @@ export const AboutMe = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
         >
-            <div className="pb-10 font-serif text-white font-semibold text-3xl">About Me</div>
-            <p className="mb-3 text-white text-base md:text-xl text-justify">
+            <div className="pb-10 font-serif text-white text-3xl">About Me</div>
+            <p className="mb-3 text-white text-sm md:text-base text-justify">
             Completed My Bachelor of Technology degree in{" "}
-            <span className="font-medium">Computer Science and Computer Applications</span> at
+            <span className="">Computer Science and Computer Applications</span> at
             Punjabi University, Patiala. I am skilled in{" "}
-            <span className="font-medium">
+            <span className="">
             full-stack web development and problem solving
             </span>
-            . <span className="">My favorite part of programming</span> is the
-            problem-solving aspect. I <span className="underline">love</span> the
+            . <span className="">My favorite part of programming</span> is developing new things. I <span className="underline">love</span> the
             feeling of finally figuring out a solution to a problem. My core stack
             is{" "}
-            <span className="font-medium">
-            Java, JavaScript, React, Next.js, Node.js, Postgres, and MongoDB
+            <span className="">
+            Typescript, JavaScript, React, Next.js, Tailwind, Node.js, Express, Postgres,  and Prisma orms
             </span>
-            . I am also familiar with<span className="font-medium"> Recoil, postgreSQL, TypeScript and Prisma.</span> I
+            . I am have good experience with<span className=""> Edge server(VERCEL), postgreSQL, MongoDB and AWS.</span> I
             am always looking to learn new technologies. I am currently looking for
-            a <span className="font-medium">full-time position</span> as a software
+            a <span className="">full-time position</span> as a software
             developer/engineer.
         </p>
 
-        <p className="text-white text-justify text-base md:text-xl">
+        <p className="text-white text-justify text-sm md:text-base">
             <span className="">When I&apos;m not coding</span>, I enjoy
             playing video games, watching movies, and go to the gym. I also 
             enjoy Reading About AI & WEB 3{" "}

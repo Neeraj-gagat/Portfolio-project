@@ -25,7 +25,7 @@ export const ContactMe = () => {
     }}
     viewport={{ once: true }}
   >
-    <div className="text-4xl font-serif text-white font-semibold mb-16">My Contacts</div>
+    <div className="text-4xl font-serif text-white  mb-16">My Contacts</div>
     <div className="justify-center flex space-x-0 sm:space-x-8 ">
       
     <a className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer" href="mailto:Neerajgagat9999@gmail.com">

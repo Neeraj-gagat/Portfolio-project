@@ -46,13 +46,21 @@ export const projectsdata = [
 ]
 
 export const experiencesData = [
+  {
+    title: "Freelance Full-Stack Web Developer",
+    location:"National & International Clients | Remote]",
+    description:
+      "As a freelance full-stack web developer, I collaborate with a diverse range of clients across national and international clients to build full-stack web applications tailored to their needs. From backend architecture to responsive frontend design, I deliver scalable and efficient solutions using modern technologies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 dec - Present",
+  },
     {
       title: "100xDevs",
       location:"",
       description:
-        "Enrolled as a Student to learn Full Stack Web development at 100xDevs,Learning Full Stack development in MERN Stack & Next.js, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
+        "Enrolled as a Student to learn Full Stack Web development and web3 development at 100xDevs,Learning Full Stack development in MERN Stack & Next.js and leraning about web3 solana and solidity, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
       icon: React.createElement(LuGraduationCap),
-      date: "2023 - 2024 - Present",
+      date: "2023 dec - Present",
     },
   
     {
