@@ -5,6 +5,7 @@ import medium from "../../public/medium.png"
 import atlantic from "../../public/atlantic.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
+import { SiFreelancer } from "react-icons/si";
 // import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
@@ -51,7 +52,7 @@ export const experiencesData = [
     location:"National & International Clients | Remote]",
     description:
       "As a freelance full-stack web developer, I collaborate with a diverse range of clients across national and international clients to build full-stack web applications tailored to their needs. From backend architecture to responsive frontend design, I deliver scalable and efficient solutions using modern technologies.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(SiFreelancer),
     date: "2024 dec - Present",
   },
     {
