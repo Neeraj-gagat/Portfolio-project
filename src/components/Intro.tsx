@@ -38,13 +38,13 @@ export const Intro = () => {
                     <p className="font-bold text-blue-600">Hello, I&apos;m Neeraj.</p> 
                 </div>
                 <div className="flex">
-                <p className="font-medium">I&apos;m a <WordsFlip className="!text-white" duration={2000} words={words} /></p>
+                <p className="text-[#8B8B8B]">I&apos;m a <WordsFlip className="!text-white" duration={2000} words={words} /></p>
+                </div>
+                <div className="flex text-[#8B8B8B]">
+                    <p>with <strong className="text-white"> Freelancing</strong> experience. I enjoy building </p>
                 </div>
                 <div className="flex">
-                    <p>with <strong> Freelancing</strong> experience. I enjoy building </p>
-                </div>
-                <div className="flex">
-                    <p className=" pr-1">websites.My focus is</p>
+                    <p className=" pr-1 text-[#8B8B8B]">websites.My focus is</p>
                     <p className="underline decoration-blue-600"> Full Stack in MERN &(Next.js)</p>.
                 </div>
             </div>
