@@ -16,16 +16,19 @@ export const ContactMe = () => {
   <motion.section
   id="contact"
     className="text-center mb-20 sm:mb-28 w-[min(100%,38rem)]"
-    initial={{ opacity: 0 }}
+    initial={{ opacity: 0, y: 100 , filter: 'blur(10px)'}}
     whileInView={{
       opacity: 1,
+      y:0,
+      filter: 'blur(0px)'
     }}
     transition={{
-      duration: 1,
+      duration: 0.5,
+      delay:0.3
     }}
-    viewport={{ once: true }}
+    viewport={{ once: true, amount:0.3 }}
   >
-    <div className="text-4xl font-serif text-white  mb-16">My Contacts</div>
+    <div className="text-3xl font-serif text-white  mb-16">My Contacts</div>
     <div className="justify-center flex space-x-0 sm:space-x-8 ">
       
     <a className="p-4 hover:scale-[1.15] hover:text-customcream transition cursor-pointer" href="mailto:Neerajgagat9999@gmail.com">

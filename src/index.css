@@ -5,3 +5,23 @@
 body {
     overflow-x: hidden;
 }
+
+/* ::-webkit-scrollbar {
+    width: 0px;
+  } */
+
+  /* Scrollbar width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Dark gray background */
+  }
+  
+  /* Scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #bcbcbc; /* Light gray thumb */
+    border-radius: 10px;
+  }

@@ -3,10 +3,15 @@ import { motion } from "framer-motion";
 export const AboutMe = () => {
     return <div id="about" className="flex bg-black justify-center px-5 md:px-10">
             <motion.section
+            whileInView={{opacity: 1, y: 0, filter: 'blur(0px)'}}
+            // initial={{ opacity: 0, x: -100 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // transition={{ duration: 1.5, ease: 'easeOut' }}
             className="mb-16 max-w-[45rem] text-center leading-8 sm:mb-20 text-base scroll-mt-28 justify-center"
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.175 }}
+            initial={{ opacity: 0, y: 100 ,filter: 'blur(10px)'}}
+            // animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.5,ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
         >
             <div className="pb-10 font-serif text-white text-3xl">About Me</div>
             <p className="mb-3 text-[#8B8B8B] text-sm md:text-base text-justify px-3">

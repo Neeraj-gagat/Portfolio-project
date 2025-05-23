@@ -30,8 +30,11 @@ export const Intro = () => {
             
             </div>
         <motion.div className="flex items-center justify-center font-sans pt-5"
-        initial={{ opacity: 0, y: 100 }}
+        whileInView={{opacity: 1, filter: 'blur(0px)'}}
+        initial={{ opacity: 0, y: 100 ,filter: 'blur(10px)'}}
         animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.7, duration: 0.5,ease: "easeOut" }}
+        viewport={{once: true}}
         >
             <div className="space-y-3 text-base sm:text-2xl">
                 <div className="overflow-y-hidden flex">
@@ -49,7 +52,13 @@ export const Intro = () => {
                 </div>
             </div>
         </motion.div>
-        <div className="flex flex-col justify-center gap-[1.3rem] px-4 sm:flex-row text-lg font-medium mx-11 mt-10">
+        <motion.div 
+        whileInView={{opacity: 1, filter: 'blur(0px)'}}
+        initial={{ opacity: 0, y: 100 ,filter: 'blur(10px)'}}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1, duration: 0.5,ease: "easeOut" }}
+        viewport={{once: true}}
+        className="flex flex-col justify-center gap-[1.3rem] px-4 sm:flex-row text-lg font-medium mx-11 mt-10">
             <div className="flex flex-row  space-x-8">
             {/* <AnchorLink href="#contact" className="focus:scale-[1.10] hover:scale-[1.10] transition bg-white hover:bg-zinc-300 border-none text-black gap-1 px-5 py-2 text-sm md:text-lg rounded-full shadow-xl flex" >Contact 
                  <div className="flex pt-1 size-8 text-black pl-2"><BsArrowRight/></div>
@@ -66,6 +75,6 @@ export const Intro = () => {
             {/* <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://in.linkedin.com/in/neeraj-gagat-6b59b8210?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><FaLinkedin color="black" /></a>
             <a className="group border-black/10 p-2 items-center text-[1.35rem] shadow-xl bg-white rounded-full flex gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 hover:bg-zinc-300 active:scale-105 transition cursor-pointer border" href="https://x.com/Neeraj_tw" target="_blank"><FaSquareXTwitter color="black" /></a> */}
             </div>
-        </div>
+        </motion.div>
     </div>
 }

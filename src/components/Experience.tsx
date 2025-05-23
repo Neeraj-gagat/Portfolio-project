@@ -15,7 +15,7 @@ export const Experience = () =>{
     id="experience"
     className="scroll-mt-28 mb-16 sm:mb-20 bg-black"
   >
-    <div className="flex justify-center text-white text-4xl mb-14 font-serif">My Experience</div>
+    <div className="flex justify-center text-white text-3xl mb-14 font-serif">My Experience</div>
     <VerticalTimeline lineColor="black">
       {experiencesData.map((item, index) => (
         <React.Fragment key={index}>
