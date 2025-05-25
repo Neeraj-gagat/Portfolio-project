@@ -10,7 +10,7 @@ export const AboutMe = () => {
             className="mb-16 max-w-[45rem] text-center leading-8 sm:mb-20 text-base scroll-mt-28 justify-center"
             initial={{ opacity: 0, y: 100 ,filter: 'blur(10px)'}}
             // animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.5,ease: "easeOut" }}
+            transition={{ delay: 0.3, duration: 0.3,ease: "easeOut" }}
             viewport={{ once: true, amount: 0.3 }}
         >
             <div className="pb-10 font-serif text-white text-3xl">About Me</div>
