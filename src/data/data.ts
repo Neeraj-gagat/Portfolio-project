@@ -34,7 +34,7 @@ export const projectsdata = [
         tags: ["ReactJS", "framer-motion", "Typescript", "Tailwind CSS" , "Aceternity UI"],
         imageUrl:portfolio,
         linkToProject:"https://github.com/Neeraj-gagat/Portfolio-project",
-        liveLink:"https://portfolio-project-sand-nine.vercel.app/",
+        liveLink:"https://www.neerajgagat.com",
     },
     {title: "Blogging Web App",
         description:
