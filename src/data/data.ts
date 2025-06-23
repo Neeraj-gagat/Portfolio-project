@@ -3,6 +3,7 @@ import zapier from "../../public/zapier.png"
 import portfolio from "../../public/portfolio.png"
 import medium from "../../public/medium.png"
 import atlantic from "../../public/atlantic.png"
+import biryaniculture from "../../public/biryaniculture.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
 import { SiFreelancer } from "react-icons/si";
@@ -13,10 +14,19 @@ export const projectsdata = [
       title: "Freelancing project",
       description:
       "Designed and developed a high-performance, responsive website for a Dubai-based immigration company, enhancing brand presence and user experience.",
-      tags: ["Next.JS", "Framer-motion", "Typescript", "AWS", "ec2", "s3"],
+      tags: ["Next.JS", "Typescript", "AWS", "ec2", "s3"],
       imageUrl:atlantic,
       linkToProject:"",
       liveLink:"https://atlanticglobalvisa.com",
+    },
+    {
+      title: "Biryani Ordering Website – Dubai",
+      description:
+      "Built a responsive food ordering site for a Dubai-based biryani brand, allowing users to browse the menu and place orders on both desktop and mobile.",
+      tags: ["Next.JS", "Typescript", "Vercel", "Edge-server", "s3"],
+      imageUrl:biryaniculture,
+      linkToProject:"",
+      liveLink:"https://biryaniculture.ae",
     },
     {
         title: "Zapier Web App",
