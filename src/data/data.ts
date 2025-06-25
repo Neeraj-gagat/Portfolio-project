@@ -4,6 +4,7 @@ import portfolio from "../../public/portfolio.png"
 import medium from "../../public/medium.png"
 import atlantic from "../../public/atlantic.png"
 import biryaniculture from "../../public/biryaniculture.png"
+import passoports from "../../public/passoports.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
 import { SiFreelancer } from "react-icons/si";
@@ -14,10 +15,19 @@ export const projectsdata = [
       title: "Freelancing project",
       description:
       "Designed and developed a high-performance, responsive website for a Dubai-based immigration company, enhancing brand presence and user experience.",
-      tags: ["Next.JS", "Typescript", "AWS", "ec2", "s3"],
+      tags: ["Next.JS", "Typescript",  "Vercel", "Edge-server", "s3"],
       imageUrl:atlantic,
       linkToProject:"",
       liveLink:"https://atlanticglobalvisa.com",
+    },
+    {
+      title: "Freelancing project",
+      description:
+      "A modern, responsive web app built for a Dubai-based immigration consultancy. Enables users to explore citizenship and residency programs, upload documents securely, and submit inquiries seamlessly. ",
+      tags: ["Next.JS", "Typescript", "Framer-Motion",  "Vercel", "Edge-server", "s3"],
+      imageUrl:passoports,
+      linkToProject:"",
+      liveLink:"https://Passoports.vercel.app",
     },
     {
       title: "Biryani Ordering Website – Dubai",
