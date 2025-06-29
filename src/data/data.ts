@@ -27,7 +27,7 @@ export const projectsdata = [
       tags: ["Next.JS", "Typescript", "Framer-Motion",  "Vercel", "Edge-server", "s3"],
       imageUrl:passoports,
       linkToProject:"",
-      liveLink:"https://Passoports.vercel.app",
+      liveLink:"https://Passoports.com",
     },
     {
       title: "Biryani Ordering Website – Dubai",
