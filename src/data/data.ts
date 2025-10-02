@@ -5,12 +5,22 @@ import medium from "../../public/medium.png"
 import atlantic from "../../public/atlantic.png"
 import biryaniculture from "../../public/biryaniculture.png"
 import passoports from "../../public/passoports.png"
+import affoda from "../../public/affoda.png"
 
 import { LuGraduationCap, LuSchool } from "react-icons/lu"
 import { SiFreelancer } from "react-icons/si";
 // import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
+    {
+      title: "Freelancing project - Hotel booking website",
+      description:
+      "Affoda is an affordable travel and hotel booking platform that helps users search, compare, and book hotels with ease. It focuses on providing a seamless booking experience with real-time data, smooth date selection, and a clean, responsive design.",
+      tags: ["Next.JS", "Typescript",  "jwt-auth", "Edge-server", "Amazon SES", "express", "postgres", "node.js", "ec2", "backend", "API-integration"],
+      imageUrl:affoda,
+      linkToProject:"",
+      liveLink:"https://affoda.com",
+    },
     {
       title: "Freelancing project",
       description:
