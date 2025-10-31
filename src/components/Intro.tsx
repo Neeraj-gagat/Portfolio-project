@@ -14,7 +14,7 @@ import Avatar from "./ui/Avatar-animation";
 export const Intro = () => {
     const words = ["Full Stack Developer", "Software Engineer", "MERN Stack Developer", "Tech Enthusiast", "Open Source Contributer", "NextJS Developer"];
 
-    return <div className=" content-center bg-black  text-white text-4xl text-center" id="home">
+    return <div className=" content-center bg-transparent  text-white text-4xl text-center" id="home">
         <div className="flex justify-center pt-36">
             <motion.div
             initial={{ opacity: 0, scale: 0 }}

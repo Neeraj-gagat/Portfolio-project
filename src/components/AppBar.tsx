@@ -12,22 +12,22 @@ export const AppBar = () =>{
     viewport={{once: true}}
     >
     <nav className="flex justify-center w-[20rem] space-x-4 sm:space-x-10 sm:w-[30rem] mt-2 sm:mt-0">
-      <AnchorLink offset={100} href="#home" className="text-neutral-400 hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#home" className="text-neutral-400 hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         Home
       </AnchorLink>
-      <AnchorLink offset={100} href="#about" className="text-neutral-400  hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#about" className="text-neutral-400  hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         About
       </AnchorLink>
-      <AnchorLink offset={100} href="#projects" className="text-neutral-400  hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#projects" className="text-neutral-400  hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         Projects
       </AnchorLink>
-      <AnchorLink offset={100} href="#skills" className="text-neutral-400  hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#skills" className="text-neutral-400  hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         Skills
       </AnchorLink>
-      <AnchorLink offset={100} href="#experience" className="text-neutral-400 hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#experience" className="text-neutral-400 hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         Experience
       </AnchorLink>
-      <AnchorLink offset={100} href="#contact" className="text-neutral-400 hover:text-white hover:scale-105 transition duration-300 pt-0.5 rounded-md text-xs md:text-sm font-medium">
+      <AnchorLink offset={100} href="#contact" className="text-neutral-400 hover:text-white hover:scale-110 transition duration-300  rounded-md text-xs md:text-sm font-medium">
         Contact
       </AnchorLink>
     </nav>

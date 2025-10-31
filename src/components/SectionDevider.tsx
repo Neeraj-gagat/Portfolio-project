@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 export default function SectionDivider() {
   return (
-    <div className="flex flex-col items-center bg-black justify-center">
+    <div className="flex flex-col items-center bg-transparent justify-center">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1,y: [0, 20, 0], transition: { duration: 1.5, repeat: Infinity, repeatType: "mirror"} }}
         className="my-7 md:my-10 text-white"
       >
-        <MdKeyboardDoubleArrowDown className="text-5xl" />
+        <MdKeyboardDoubleArrowDown color="#2462E8" className="text-5xl" />
       </motion.div>
 
       {/* <motion.div

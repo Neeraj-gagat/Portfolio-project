@@ -11,6 +11,7 @@ export const Skills = () => {
   "HTML",
   "CSS",
   "AWS",
+  "Bun",
   "Hono",
   "noSQL",
   "Recoil",
@@ -41,6 +42,7 @@ export const Skills = () => {
   "Data Structures",
   "Serverless Backends",
   "OpenAPI Specification",
+  "Clerk Authentication",
   "Cloudflare Workers",
   "Database Optimization",];
 
@@ -56,7 +58,7 @@ export const Skills = () => {
     }),
   };
     
-    return <div id="skills" className="flex justify-center bg-black">
+    return <div id="skills" className="flex justify-center bg-transparent">
                 <div className="mb-28 justify-center max-w-[53rem] scroll-mt-28 text-center sm:mb:40">
                     <div className="text-3xl text-white font-serif"> My Skills</div>
                         <div className=" mt-12 w-[350px] md:w-[610px] text-justify">

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 export const AboutMe = () => {
-    return <div id="about" className="flex bg-black justify-center px-5 md:px-10">
+    return <div id="about" className="flex bg-transparent justify-center px-5 md:px-10">
             <motion.section
             whileInView={{opacity: 1, y: 0, filter: 'blur(0px)'}}
             // initial={{ opacity: 0, x: -100 }}

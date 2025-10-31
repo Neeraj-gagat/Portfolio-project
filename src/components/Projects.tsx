@@ -7,7 +7,7 @@ import { JSX } from "react/jsx-runtime";
 export const Projects = () => {
   
   return (
-    <div className="flex justify-center bg-black">
+    <div className="flex justify-center bg-transparent">
     <div id="projects" className="scroll-mt-28 mb-24 max-w-sm sm:max-w-3xl">
       <div className="flex justify-center text-3xl mb-12  text-white font-serif">My Projects</div>
       <div className="grid grid-cols-1 md:grid-cols-2  gap-4">

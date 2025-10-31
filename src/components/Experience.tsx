@@ -13,7 +13,7 @@ export const Experience = () =>{
     transition={{ type:"tween" , duration: 1, delay: 0.2}}
     viewport={{ once: true }}
     id="experience"
-    className="scroll-mt-28 mb-16 sm:mb-20 bg-black"
+    className="scroll-mt-28 mb-16 sm:mb-20 bg-transparent"
   >
     <div className="flex justify-center text-white text-3xl mb-14 font-serif">My Experience</div>
     <VerticalTimeline lineColor="black">
