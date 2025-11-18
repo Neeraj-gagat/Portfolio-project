@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const Skills = () => {
     const skillsarr:string[] = [
   "Git",
-  "Java",
+  // "Java",
   "Zod",
   "JWT",
   "SQL",
@@ -33,7 +33,7 @@ export const Skills = () => {
   "Kubernetes",
   "TurboREPO",
   "Prometheus",
-  "ExpressJS",
+  "Express.JS",
   "REST APIs",
   "Algorithms",
   "Tailwind CSS",

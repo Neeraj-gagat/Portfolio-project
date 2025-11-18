@@ -8,7 +8,7 @@ import SectionDivider from "../components/SectionDevider"
 import { Skills } from "../components/Skills"
 
 export const LandingPage = () => {
-    return <div className="bg-gradient-to-br from-slate-950 via-black to-black overflow-hidden">
+    return <div className="bg-gradient-to-br from-slate-950 via-black to-blue-950 overflow-hidden">
         <AppBar/>
         <Intro/>
         <SectionDivider/>
