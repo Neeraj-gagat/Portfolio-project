@@ -16,20 +16,20 @@ export const Experience = () =>{
     className="scroll-mt-28 mb-16 sm:mb-20 bg-transparent"
   >
     <div className="flex justify-center text-white text-3xl mb-14 font-serif">My Experience</div>
-    <VerticalTimeline lineColor="black">
+    <VerticalTimeline lineColor="white">
       {experiencesData.map((item, index) => (
         <React.Fragment key={index}>
           <VerticalTimelineElement
             visible={true}
             contentStyle={{
-              background: "black",
+              background: "transparent",
               boxShadow: "none",
-              border: "0.5px solid white",
+              border: "0.1px solid #121D42",
               textAlign: "left",
-              padding: "1.3rem 2rem",
+              padding: "1rem 1rem",
             }}
             contentArrowStyle={{
-              borderRight: "0.4rem solid black",
+              borderRight: "0.4rem solid transparent",
             }}
             date={item.date}
             dateClassName="text-white"
@@ -44,7 +44,7 @@ export const Experience = () =>{
           >
             <h3 className="text-white capitalize">{item.title}</h3>
             <p className=" text-white !mt-0">{item.location}</p>
-            <p className="!mt-1 text-sm text-slate-300">
+            <p className="!mt-1 text-[12px] text-slate-300">
               {item.description}
             </p>
           </VerticalTimelineElement>
