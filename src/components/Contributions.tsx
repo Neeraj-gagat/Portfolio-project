@@ -15,7 +15,7 @@ export const Contributions = () => {
                 }}
     viewport={{ once: true, amount:0.3 }}>
         <div className="max-w-[45rem]">
-            <p className="flex justify-center text-3xl mb-12  text-white font-serif">Open Source Contributions</p>
+            <p className="flex justify-center text-3xl scroll-mt-24 mb-12  text-white font-serif">Open Source Work</p>
             <div className="flex flex-row justify-center items-start gap-4 md:gap-8">
                <div className="bg-white rounded-full p-1 flex items-center justify-center mt-1">
                   <img className="w-[30px] md:w-[40px] h-[30px] md:h-[40px]" src="https://avatars.githubusercontent.com/u/7253637?s=200&v=4" alt="" />
