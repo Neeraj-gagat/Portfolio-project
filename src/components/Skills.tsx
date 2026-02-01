@@ -58,14 +58,14 @@ export const Skills = () => {
     }),
   };
     
-    return <div id="skills" className="flex justify-center bg-transparent">
+    return <div id="skills" className="flex justify-center bg-transparent z-10">
                 <div className="mb-28 justify-center max-w-[53rem] scroll-mt-28 text-center sm:mb:40">
                     <div className="text-3xl text-white font-serif"> My Skills</div>
                         <div className=" mt-12 w-[350px] md:w-[610px] text-justify">
-                            <ul className="flex flex-wrap justify-center gap-1.5 text-xs md:text-sm uppercase font-medium text-black">
+                            <ul className="flex flex-wrap justify-center gap-1.5 text-xs md:text-sm uppercase font-medium text-white">
                                 {skillsarr.map((skill, index) => (
                                     <motion.li
-                                    className="bg-white border-black/[0.1] rounded-lg px-3 py-1 hover:bg-zinc-300 transition-colors duration-200 cursor-default"
+                                    className="bg-white/10 backdrop-blur-[0.2rem] border-black/[0.1] rounded-lg px-3 py-1 hover:text-black hover:bg-zinc-300 transition-colors duration-200 cursor-default"
                                     key={index}
                                     variants={fadeInAnimationVariants}
                                     initial="initial"

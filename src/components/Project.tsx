@@ -37,7 +37,7 @@ export const Project = ({
     // }}
     className=" mb-3 sm:mb-8 last:mb-0"
     >      
-    <div className="bg-transparent w-[370px] md:w-[350px] h-[490px] border-opacity-20 backdrop-blur-[0.3rem] border-[0.1px] border-white rounded-xl overflow-hidden p-0">
+    <div className="bg-transparent w-[370px] md:w-[350px] h-[490px] border-opacity-20 backdrop-blur-[0.2rem] border-[0.1px] border-white rounded-xl overflow-hidden p-0">
       <img src={imageUrl} alt="image" />
       <div className="p-3">
         <p className="text-base text-white font-black pt-4">{title}</p>
