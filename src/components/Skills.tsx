@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 export const Skills = () => {
     const skillsarr:string[] = [
   "Git",
-  // "Java",
   "Zod",
   "JWT",
   "SQL",

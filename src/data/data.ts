@@ -3,6 +3,7 @@ import zapier from "../../public/zapier.png"
 import portfolio from "../../public/portfolio.png"
 import medium from "../../public/medium.png"
 import atlantic from "../../public/atlantic.png"
+import tripwiz from "../../public/tripwiz.png"
 import biryaniculture from "../../public/biryaniculture.png"
 import passoports from "../../public/passoports.png"
 import affoda from "../../public/affoda.png"
@@ -12,6 +13,15 @@ import { SiFreelancer } from "react-icons/si";
 // import { CgWorkAlt } from "react-icons/cg"
 
 export const projectsdata = [
+     {
+      title: "TripWiz - Hackathon project",
+      description:
+      "TripWiz is an AI-powered hotel discovery app built using Tambo.ai, enabling users to find hotels through natural language queries like “Find hotels in New York under $70 for next week,” and instantly view structured, real-time results.",
+      tags: ["Tambo", "Next.JS", "Typescript", "Edge-server","express", "node.js", "ec2", "backend", "API-integration"],
+      imageUrl:tripwiz,
+      linkToProject:"https://github.com/Neeraj-gagat/TripWiz",
+      liveLink:"https://tripwiz.neerajgagat.com",
+    },
     {
       title: "Freelancing project - Hotel booking website",
       description:

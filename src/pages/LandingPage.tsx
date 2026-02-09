@@ -12,8 +12,8 @@ import Snowfall from 'react-snowfall'
 export const LandingPage = () => {
     return <div className="relative bg-gradient-to-br from-slate-950 via-black to-blue-950 overflow-hidden">
         <div className="fixed inset-0 pointer-events-none z-0">
-           <Snowfall color="white" snowflakeCount={30}/>
-           <Snowfall color="blue" snowflakeCount={30}/>
+           <Snowfall color="white" snowflakeCount={20}/>
+           <Snowfall color="blue" snowflakeCount={20}/>
         </div>
         <AppBar/>
         <Intro/>
