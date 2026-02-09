@@ -93,11 +93,11 @@ export const experiencesData = [
     description:
       "As a freelance full-stack web developer, I collaborate with a diverse range of clients across national and international clients to build full-stack web applications tailored to their needs. From backend architecture to responsive frontend design, I deliver scalable and efficient solutions using modern technologies.",
     icon: React.createElement(SiFreelancer),
-    date: "2024 jan - Present",
+    date: "2025 jan - Present",
   },
     {
       title: "100xDevs",
-      location:"",
+      location:"Remote",
       description:
         "Enrolled as a Student to learn Full Stack Web development and web3 development at 100xDevs,Learning Full Stack development in MERN Stack & Next.js and leraning about web3 solana and solidity, Making Full Stack Projects End to End, And Upskilling My Stack Eveyday",
       icon: React.createElement(LuGraduationCap),
