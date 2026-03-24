@@ -21,7 +21,7 @@ export const Contributions = () => {
                   <img className="w-[30px] md:w-[40px] h-[30px] md:h-[40px]" src="https://avatars.githubusercontent.com/u/7253637?s=200&v=4" alt="" />
                </div>
             <div className="flex-1 min-w-0 text-[#8B8B8B] text-sm md:text-base text-left break-words leading-relaxed">
-                <p>Top Contributer at <a href="https://github.com/CCExtractor/ccsync"><b className="text-white">CCExtractor/ccsync</b></a> Contributed <b className="text-white"> 25+ merged Pull Requests </b> in open-source codebase Delivered <b className="text-white">new features, bug fixes, refactors, and test improvements</b> Participated in code reviews, issue reporting, and discussion-based collaboration Total contributions: 75+ (PRs + reviews + issues)</p>
+                <p>Top Contributer at <a href="https://github.com/CCExtractor/ccsync"><b className="text-white">CCExtractor/ccsync</b></a> Contributed <b className="text-white"> 27+ merged Pull Requests </b> in open-source codebase Delivered <b className="text-white">new features, bug fixes, refactors, and test improvements</b> Participated in code reviews, issue reporting, and discussion-based collaboration Total contributions: 80+ (PRs + reviews + issues)</p>
             </div>
         </div>
         </div>
